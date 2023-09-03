@@ -39,5 +39,3 @@ como o próprio nome da função já diz gera o pokemon random(chamando a funç�
 ![Untitled](PokeGenerator%206d840af515434d06bf90575f619ecda6/Untitled.png)
 
 ![Untitled](PokeGenerator%206d840af515434d06bf90575f619ecda6/Untitled%201.png)
-
-teste a versão web: https://felipe-takayuki.github.io/Felipe-Takayuki.github.io.pokeweb/
