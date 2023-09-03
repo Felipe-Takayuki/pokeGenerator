@@ -18,15 +18,13 @@ class _HomeState extends State<Home> {
      PokemonModel model = await  PokemonService().randomPokemonService();
      pokename = model.name;
      imageurl = model.frontDefault;
-    update(pokename, imageurl);
-  }
-  void update(String name, var image){
+  
     setState(() {
-      name;
-      image;
+      pokename;
+      imageurl;
     });
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
