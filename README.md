@@ -25,17 +25,16 @@ String pokename = "";
      PokemonModel model = await  PokemonService().randomPokemonService();
      pokename = model.name;
      imageurl = model.frontDefault;
-    update(pokename, imageurl);
-  }
-  void update(String name, var image){
+
     setState(() {
-      name;
-      image;
+      pokename;
+      imageurl;
     });
   }
+ 
 ```
 
-como os próprios nomes das funções já dizem uma gera o pokemon(chamando a função randomPokemonService( ) e a outra update atualiza as informações da tela utilizando o setState 
+como o próprio nome da função já diz gera o pokemon random(chamando a função randomPokemonService( ) e atualiza a tela com o setState 
 
 ![Untitled](PokeGenerator%206d840af515434d06bf90575f619ecda6/Untitled.png)
 
